@@ -17,7 +17,7 @@ h1 {
     text-align: center;
 }
 
-#HP-List {
+.hp-list {
     font-size: 52px;
     color: black;
 }

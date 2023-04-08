@@ -1,21 +1,48 @@
 * {
-    font-family: 'Trispace', Courier;
+    background-color: slategray;
+    font-family: 'monospace', Courier;
 }
 img {
-    width: auto;
-    height: 300px;
+    width: 2000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-li {
-    color: gray;
-    font-size: 18px;
+body{
+    color: white;
 }
 
 h1 {
     text-align: center;
 }
 
-a {
-    font-size: 30px;
-    color: black;
+li, a {
+    font-size: 18px;
+    color: white;
+    margin-right: 30px;
+    margin-left: 50px;
+}
+
+h3, h2 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+}
+
+.container > a {
+    flex: 1;
+    justify-content: space-around;
+}
+
+.image {
+    display: flex;
+    flex: auto;
+    align-self: center;
+    max-width: 400px;
+    max-height: 400px;
 }
